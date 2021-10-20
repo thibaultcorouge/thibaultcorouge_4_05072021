@@ -1857,10 +1857,14 @@ abbr[title] {
 }
 
 blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
+    padding: 5px 50px;
+    margin: 0 0 0px;
+    font-size: 20px;
+    border-left: 5px solid white;
+    color: #333333;
+    font-style: italic;
+    font-weight: 400;
+
 }
 
 blockquote ol:last-child,
@@ -1874,7 +1878,7 @@ blockquote footer,
 blockquote small {
     display: block;
     font-size: 80%;
-    line-height: 1.42857143;
+    line-height: 1;
     color: #777
 }
 
@@ -7682,7 +7686,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
