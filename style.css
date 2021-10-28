@@ -99,6 +99,19 @@ a:hover {
     background-size: 280px 280px;
 }
 
+.access{
+    display: block;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+    width:auto;
+    max-width: 500px;
+    position: relative;
+    z-index: 40;
+    background-color: #F3976C;
+    border-radius: 25px;
+    opacity: 85%;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -291,6 +304,11 @@ a:hover {
     font-size: 32px;
 }
 
+#bloc-6 h1 {
+    font-size: 32px;
+}
+
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -452,7 +470,8 @@ nav .caret {
 }
 
 .btn {
-    margin: 0 5px 5px 0;
+    /* margin: 0 5px 5px 0; */
+    margin: auto;
 }
 
 .btn.pull-right {
@@ -816,6 +835,11 @@ h4 {
     color: #333333!important;
     font-weight: normal;
     
+}
+
+#bloc-7 {
+    display: block;
+    text-align: center;
 }
 
 .ltc-white:hover {
