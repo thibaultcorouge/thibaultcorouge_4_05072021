@@ -1,2 +1,8 @@
 User-agent: *
-Disallow: /contact.html
+Disallow: /contact.html/
+Disallow: /includes/
+Disallow: /css/
+Disallow: /js/
+Disallow: /favicon.jpg/
+Disallow: /fonts/
+Disallow: /img/
